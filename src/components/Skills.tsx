@@ -2,24 +2,20 @@ import { motion } from "framer-motion";
 
 const skillCategories = [
   {
-    title: "Frontend",
-    skills: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "ReactJS", "QuillJS"],
-  },
-  {
-    title: "Backend",
-    skills: ["Node.js", "Express.js", "REST API", "Cloudinary", "Docker"],
-  },
-  {
     title: "Languages",
-    skills: ["JavaScript", "TypeScript", "C++", "Python", "Java"],
+    skills: ["C++", "Python", "SQL", "PostgreSQL", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS"],
   },
   {
-    title: "Databases",
-    skills: ["MongoDB", "MySQL", "PostgreSQL", "pgAdmin"],
+    title: "Frameworks",
+    skills: ["ReactJS", "NodeJS", "ExpressJS", "NextJS"],
   },
   {
     title: "Tools",
-    skills: ["Git", "GitHub", "VS Code", "Jupyter Notebook", "AWS (Deployment)"],
+    skills: ["GitHub", "VS Code", "MySQL", "MongoDB", "pgAdmin4", "Swagger", "Docker"],
+  },
+  {
+    title: "Cloud & Deployment",
+    skills: ["AWS (EC2, S3, CloudFront)", "Vercel", "Render"],
   },
 ];
 
@@ -36,7 +32,7 @@ const Skills = () => {
           <h2 className="font-heading text-3xl md:text-4xl font-semibold text-chalk mb-12">
             Skills
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {skillCategories.map((cat, i) => (
               <motion.div
                 key={cat.title}

@@ -12,6 +12,11 @@ const achievements = [
     title: "Tech Fest Participation",
     description: "Actively participated in tech fests and coding competitions during academic career.",
   },
+  {
+    icon: Award,
+    title: "Jury Panel Member – Delhi AI Grind",
+    description: "Served as a Jury Panel Member at Delhi AI Grind, evaluating AI-driven solutions for real-world civic challenges.",
+  },
 ];
 
 const certificates = [
@@ -43,7 +48,7 @@ const Achievements = () => {
             Achievements & Certificates
           </h2>
 
-          <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 mb-10 sm:mb-12">
+          <div className="grid sm:grid-cols-3 gap-4 sm:gap-6 mb-10 sm:mb-12">
             {achievements.map((item, i) => (
               <motion.div
                 key={item.title}
@@ -51,7 +56,7 @@ const Achievements = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.08 }}
-                className="bg-card border border-border rounded-xl p-5 sm:p-6 hover:border-primary transition-colors group"
+                className="bg-card border border-border rounded-xl p-5 sm:p-6 hover:border-primary/30 transition-colors group"
               >
                 <item.icon
                   size={22}
@@ -78,7 +83,7 @@ const Achievements = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.08 }}
-                className="bg-card border border-border rounded-xl p-5 sm:p-6 hover:border-primary transition-colors group"
+                className="bg-card border border-border rounded-xl p-5 sm:p-6 hover:border-primary/30 transition-colors group"
               >
                 <Award
                   size={22}

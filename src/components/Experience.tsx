@@ -5,10 +5,13 @@ const experiences = [
     role: "Full Stack Software Development Engineer",
     company: "Where U Elevate",
     period: "November 2025 — Present",
+    location: "Greater Noida, India",
     points: [
-      "Developing full stack applications with React frontend systems",
-      "Designing REST APIs and implementing scalable architecture",
-      "Managing databases and optimizing application performance",
+      "Built responsive and scalable UI using React & Next.js, focusing on performance and clean component architecture.",
+      "Integrated APIs efficiently, ensuring seamless data flow between frontend and backend systems.",
+      "Implemented SEO best practices (Next.js SSR, meta tags, optimization) to improve search visibility and page ranking.",
+      "Developed reusable UI components using modern design systems, enhancing consistency and development speed.",
+      "Deployed and managed applications on AWS, ensuring reliable hosting and smooth production releases.",
     ],
   },
   {
