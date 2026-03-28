@@ -85,7 +85,7 @@ const Hero = () => {
               Contact
             </a>
             <a
-              href="https://portfolio-v2-three-black.vercel.app/"
+              href="https://drive.google.com/file/d/1cd3Ut8EIiwqcf2-LbzpCkCMtdNK_MVyQ/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-border px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg font-heading text-xs sm:text-sm font-semibold text-chalk hover:bg-secondary transition-colors flex items-center gap-2"
