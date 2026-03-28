@@ -8,11 +8,12 @@
     "types": ["vite/client"],
     "skipLibCheck": true,
 
-    /* ✅ ADD THIS */
+    /* ✅ ADD THESE */
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
+    "ignoreDeprecations": "6.0",
 
     /* Bundler mode */
     "moduleResolution": "bundler",
