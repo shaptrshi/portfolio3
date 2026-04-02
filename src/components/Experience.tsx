@@ -17,9 +17,9 @@ const experiences = [
   {
     role: "DSA Trainer",
     company: "Multiple Institutions",
-    period: "November 2024 — Present",
+    period: "November 2025 — Present",
     points: [
-      "Conducted DSA training sessions at Galgotia College, Galgotia University, IMAR Ghaziabad, and IPEC Ghaziabad",
+      "Conducted DSA training sessions at Galgotia College, Galgotia University, IAMR Ghaziabad, and IPEC Ghaziabad",
       "Trained students on data structures, algorithms, and competitive programming techniques",
       "Focused on problem-solving strategies, time complexity analysis, and interview preparation",
     ],
