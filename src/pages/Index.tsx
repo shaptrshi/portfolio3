@@ -23,7 +23,7 @@ const Index = () => {
         <Contact />
         <footer className="py-6 sm:py-8 px-4 sm:px-6 text-center">
           <p className="text-graphite font-body text-xs">
-            © 2025 Shaptrshi Kaushal. All rights reserved.
+            © 2026 Shaptrshi Kaushal. All rights reserved.
           </p>
         </footer>
       </main>
